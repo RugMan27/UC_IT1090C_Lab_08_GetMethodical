@@ -9,6 +9,6 @@ public class DevTest {
         SafeInput.getRangedInt(in, "Enter Grade", 1,12);
         SafeInput.getRangedDouble(in, "Enter some price", 0.31,14.5);
         SafeInput.YNConfirm(in, "Continue?");
-        SafeInput.getRegExString(in, "SSN", "^(?!000|666|9\\d{2})\\d{3}-(?!00)\\d{2}-(?!0000)\\d{4}$");
+        SafeInput.getRegExString(in, "SSN [XXX-XX-XXXX]", "^(?!000|666|9\\d{2})\\d{3}-(?!00)\\d{2}-(?!0000)\\d{4}$");
     }
 }
